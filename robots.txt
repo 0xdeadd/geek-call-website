@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://geekcall.com/sitemap.xml
+
+# Disallow common admin/system directories (if they exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
